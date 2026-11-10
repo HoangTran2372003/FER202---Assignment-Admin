@@ -1,0 +1,659 @@
+{
+  "users": [
+    {
+      "id": "USR-001",
+      "name": "Nguyễn Văn Hùng",
+      "email": "hung.nv@gmail.com",
+      "phone": "0912345678",
+      "role": "buyer",
+      "status": "active",
+      "registeredAt": "2026-01-15",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=100&h=100&fit=crop",
+      "ordersCount": 14,
+      "strikes": 0,
+      "lockReason": null
+    },
+    {
+      "id": "USR-002",
+      "name": "Trần Thị Lan (LanStore Vintage)",
+      "email": "lan.vintage@gmail.com",
+      "phone": "0987654321",
+      "role": "seller",
+      "status": "active",
+      "registeredAt": "2025-11-20",
+      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop",
+      "storeName": "LanStore Vintage & Collectibles",
+      "rating": 4.8,
+      "feedbackScore": 195,
+      "strikes": 0,
+      "lockReason": null
+    },
+    {
+      "id": "USR-003",
+      "name": "Công ty TNHH TechGadget Official",
+      "email": "contact@techgadget.vn",
+      "phone": "0903123456",
+      "role": "seller",
+      "status": "pending_approval",
+      "registeredAt": "2026-03-01",
+      "avatar": "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=100&h=100&fit=crop",
+      "storeName": "TechGadget VN Store",
+      "businessLicense": "0109988776",
+      "rating": 0,
+      "feedbackScore": 0,
+      "strikes": 0,
+      "lockReason": null
+    },
+    {
+      "id": "USR-004",
+      "name": "Phạm Minh Hoàng (FakeStore Scam)",
+      "email": "hoang.pm99@trashmail.com",
+      "phone": "0977888999",
+      "role": "seller",
+      "status": "locked",
+      "registeredAt": "2026-02-10",
+      "avatar": "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?w=100&h=100&fit=crop",
+      "storeName": "Sneakers Hub Cheap",
+      "rating": 1.5,
+      "feedbackScore": 12,
+      "strikes": 3,
+      "lockReason": "Bán giày thể thao giả mạo nhãn hiệu Nike & từ chối hoàn tiền cho khách."
+    },
+    {
+      "id": "USR-005",
+      "name": "Lê Thu Hà",
+      "email": "thuha.le@outlook.com",
+      "phone": "0934567890",
+      "role": "buyer",
+      "status": "active",
+      "registeredAt": "2026-01-22",
+      "avatar": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=100&h=100&fit=crop",
+      "ordersCount": 8,
+      "strikes": 0,
+      "lockReason": null
+    },
+    {
+      "id": "USR-006",
+      "name": "Vũ Đức Long (Tokyo Goods)",
+      "email": "long.tokyo@gmail.com",
+      "phone": "0945671234",
+      "role": "seller",
+      "status": "active",
+      "registeredAt": "2025-08-14",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop",
+      "storeName": "Tokyo Japan Authentic",
+      "rating": 4.9,
+      "feedbackScore": 430,
+      "strikes": 0,
+      "lockReason": null
+    },
+    {
+      "id": "USR-007",
+      "name": "Bùi Thị Mai",
+      "email": "mai.bui89@gmail.com",
+      "phone": "0966554433",
+      "role": "seller",
+      "status": "pending_approval",
+      "registeredAt": "2026-03-03",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&h=100&fit=crop",
+      "storeName": "Mai Handmade & Craft",
+      "businessLicense": "0319876543",
+      "rating": 0,
+      "feedbackScore": 0,
+      "strikes": 0,
+      "lockReason": null
+    },
+    {
+      "id": "USR-008",
+      "name": "Đỗ Quốc Bảo",
+      "email": "baodo.gamer@yahoo.com",
+      "phone": "0923344556",
+      "role": "buyer",
+      "status": "locked",
+      "registeredAt": "2026-02-18",
+      "avatar": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=100&h=100&fit=crop",
+      "ordersCount": 2,
+      "strikes": 2,
+      "lockReason": "Spam tạo khiếu nại sai sự thật nhiều lần và lạm dụng chính sách hoàn trả."
+    }
+  ],
+  "products": [
+    {
+      "id": "PRD-101",
+      "title": "Apple iPhone 15 Pro Max 256GB - Titan Tự Nhiên (Chính Hãng VN/A)",
+      "category": "Điện thoại & Phụ kiện",
+      "price": 1199.99,
+      "bids": 18,
+      "stock": 12,
+      "condition": "Brand New",
+      "sellerId": "USR-003",
+      "sellerName": "TechGadget VN Store",
+      "image": "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=300&h=300&fit=crop",
+      "status": "active",
+      "reportCount": 0,
+      "violationReason": null,
+      "dateAdded": "2026-02-15"
+    },
+    {
+      "id": "PRD-102",
+      "title": "Đồng hồ Vintage Omega Seamaster Automatic 1968 - Vàng Đúc 18K Thụy Sĩ",
+      "category": "Đồng hồ & Trang sức",
+      "price": 2450.00,
+      "bids": 42,
+      "stock": 1,
+      "condition": "Pre-Owned",
+      "sellerId": "USR-002",
+      "sellerName": "LanStore Vintage & Collectibles",
+      "image": "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=300&h=300&fit=crop",
+      "status": "active",
+      "reportCount": 0,
+      "violationReason": null,
+      "dateAdded": "2026-02-20"
+    },
+    {
+      "id": "PRD-103",
+      "title": "[VI PHẠM] Giày Nike Air Jordan 1 Retro High Chicago - Fake 1:1 siêu rẻ",
+      "category": "Thời trang & Giày dép",
+      "price": 49.00,
+      "bids": 5,
+      "stock": 50,
+      "condition": "Brand New",
+      "sellerId": "USR-004",
+      "sellerName": "Sneakers Hub Cheap",
+      "image": "https://images.unsplash.com/photo-1552346154-21d32810aba3?w=300&h=300&fit=crop",
+      "status": "flagged_violation",
+      "reportCount": 15,
+      "violationReason": "Hàng giả/nhái nhãn hiệu Nike (Counterfeit Trademark Violation) theo báo cáo từ người dùng và kiểm duyệt.",
+      "dateAdded": "2026-02-28"
+    },
+    {
+      "id": "PRD-104",
+      "title": "Máy ảnh Film Canon AE-1 kèm Lens 50mm f/1.8 FD - Chuẩn sưu tầm Nhật Bản",
+      "category": "Máy ảnh & Quang học",
+      "price": 280.00,
+      "bids": 12,
+      "stock": 3,
+      "condition": "Refurbished",
+      "sellerId": "USR-006",
+      "sellerName": "Tokyo Japan Authentic",
+      "image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=300&h=300&fit=crop",
+      "status": "active",
+      "reportCount": 0,
+      "violationReason": null,
+      "dateAdded": "2026-02-18"
+    },
+    {
+      "id": "PRD-105",
+      "title": "[CẢNH BÁO] Phần mềm Hack game & Key Windows 11 Pro trọn đời 20k",
+      "category": "Máy tính & Phần mềm",
+      "price": 1.00,
+      "bids": 88,
+      "stock": 999,
+      "condition": "Brand New",
+      "sellerId": "USR-004",
+      "sellerName": "Sneakers Hub Cheap",
+      "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=300&h=300&fit=crop",
+      "status": "hidden",
+      "reportCount": 24,
+      "violationReason": "Phần mềm độc hại, vi phạm chính sách hàng cấm bán trên eBay Clone (Malicious digital items).",
+      "dateAdded": "2026-03-01"
+    },
+    {
+      "id": "PRD-106",
+      "title": "Thẻ bài Pokemon Pikachu Illustrator Holographic PSA 10 Gem Mint",
+      "category": "Sưu tầm & Nghệ thuật",
+      "price": 5200.00,
+      "bids": 65,
+      "stock": 1,
+      "condition": "Pre-Owned",
+      "sellerId": "USR-006",
+      "sellerName": "Tokyo Japan Authentic",
+      "image": "https://images.unsplash.com/photo-1613771404784-3a5686aa2be3?w=300&h=300&fit=crop",
+      "status": "active",
+      "reportCount": 1,
+      "violationReason": null,
+      "dateAdded": "2026-02-25"
+    },
+    {
+      "id": "PRD-107",
+      "title": "Sony PlayStation 5 Slim Edition 1TB SSD - Tay cầm DualSense",
+      "category": "Trò chơi điện tử",
+      "price": 499.00,
+      "bids": 29,
+      "stock": 8,
+      "condition": "Brand New",
+      "sellerId": "USR-003",
+      "sellerName": "TechGadget VN Store",
+      "image": "https://images.unsplash.com/photo-1606813907291-d86efa9b94db?w=300&h=300&fit=crop",
+      "status": "active",
+      "reportCount": 0,
+      "violationReason": null,
+      "dateAdded": "2026-02-12"
+    },
+    {
+      "id": "PRD-108",
+      "title": "[VI PHẠM NẶNG] Thuốc lá điện tử Pod dùng 1 lần 10000 hơi nội địa",
+      "category": "Hàng cấm / Y tế",
+      "price": 15.00,
+      "bids": 3,
+      "stock": 200,
+      "condition": "Brand New",
+      "sellerId": "USR-008",
+      "sellerName": "Đỗ Quốc Bảo",
+      "image": "https://images.unsplash.com/photo-1527661591475-527312dd65f5?w=300&h=300&fit=crop",
+      "status": "flagged_violation",
+      "reportCount": 31,
+      "violationReason": "Mặt hàng cấm buôn bán theo luật thương mại điện tử & quy định eBay.",
+      "dateAdded": "2026-03-02"
+    }
+  ],
+  "orders": [
+    {
+      "id": "EBAY-ORD-9021",
+      "buyerId": "USR-001",
+      "buyerName": "Nguyễn Văn Hùng",
+      "buyerEmail": "hung.nv@gmail.com",
+      "sellerName": "LanStore Vintage & Collectibles",
+      "items": [
+        {
+          "title": "Đồng hồ Vintage Omega Seamaster Automatic 1968",
+          "price": 2450.00,
+          "quantity": 1
+        }
+      ],
+      "totalAmount": 2475.00,
+      "shippingFee": 25.00,
+      "discount": 0,
+      "paymentMethod": "PayPal",
+      "status": "Delivered",
+      "orderDate": "2026-02-22",
+      "shippingAddress": "Số 45, Đường Lê Duẩn, Quận 1, TP. Hồ Chí Minh",
+      "trackingNumber": "VNPOST-99238411"
+    },
+    {
+      "id": "EBAY-ORD-9022",
+      "buyerId": "USR-005",
+      "buyerName": "Lê Thu Hà",
+      "buyerEmail": "thuha.le@outlook.com",
+      "sellerName": "TechGadget VN Store",
+      "items": [
+        {
+          "title": "Apple iPhone 15 Pro Max 256GB",
+          "price": 1199.99,
+          "quantity": 1
+        }
+      ],
+      "totalAmount": 1209.99,
+      "shippingFee": 10.00,
+      "discount": 0,
+      "paymentMethod": "Credit Card",
+      "status": "Processing",
+      "orderDate": "2026-03-01",
+      "shippingAddress": "Tòa Keangnam Landmark 72, Phạm Hùng, Cầu Giấy, Hà Nội",
+      "trackingNumber": "GHN-8812904"
+    },
+    {
+      "id": "EBAY-ORD-9023",
+      "buyerId": "USR-001",
+      "buyerName": "Nguyễn Văn Hùng",
+      "buyerEmail": "hung.nv@gmail.com",
+      "sellerName": "Sneakers Hub Cheap",
+      "items": [
+        {
+          "title": "Giày Nike Air Jordan 1 Retro High Chicago",
+          "price": 49.00,
+          "quantity": 2
+        }
+      ],
+      "totalAmount": 108.00,
+      "shippingFee": 10.00,
+      "discount": 0,
+      "paymentMethod": "COD",
+      "status": "Disputed",
+      "orderDate": "2026-02-27",
+      "shippingAddress": "Số 45, Đường Lê Duẩn, Quận 1, TP. Hồ Chí Minh",
+      "trackingNumber": "J&T-10293847"
+    },
+    {
+      "id": "EBAY-ORD-9024",
+      "buyerId": "USR-005",
+      "buyerName": "Lê Thu Hà",
+      "buyerEmail": "thuha.le@outlook.com",
+      "sellerName": "Tokyo Japan Authentic",
+      "items": [
+        {
+          "title": "Máy ảnh Film Canon AE-1 kèm Lens 50mm",
+          "price": 280.00,
+          "quantity": 1
+        }
+      ],
+      "totalAmount": 295.00,
+      "shippingFee": 15.00,
+      "discount": 0,
+      "paymentMethod": "PayPal",
+      "status": "Shipped",
+      "orderDate": "2026-02-28",
+      "shippingAddress": "Tòa Keangnam Landmark 72, Phạm Hùng, Cầu Giấy, Hà Nội",
+      "trackingNumber": "DHL-EXPRESS-9921"
+    },
+    {
+      "id": "EBAY-ORD-9025",
+      "buyerId": "USR-008",
+      "buyerName": "Đỗ Quốc Bảo",
+      "buyerEmail": "baodo.gamer@yahoo.com",
+      "sellerName": "TechGadget VN Store",
+      "items": [
+        {
+          "title": "Sony PlayStation 5 Slim Edition 1TB SSD",
+          "price": 499.00,
+          "quantity": 1
+        }
+      ],
+      "totalAmount": 514.00,
+      "shippingFee": 15.00,
+      "discount": 0,
+      "paymentMethod": "PayPal",
+      "status": "Cancelled",
+      "orderDate": "2026-03-02",
+      "shippingAddress": "12 Võ Văn Ngân, TP. Thủ Đức, TP. Hồ Chí Minh",
+      "trackingNumber": null
+    }
+  ],
+  "reviews": [
+    {
+      "id": "REV-301",
+      "productId": "PRD-102",
+      "productTitle": "Đồng hồ Vintage Omega Seamaster Automatic 1968",
+      "sellerName": "LanStore Vintage & Collectibles",
+      "buyerName": "Nguyễn Văn Hùng",
+      "rating": 5,
+      "comment": "Đồng hồ chuẩn vintage nguyên bản, đóng gói chống sốc 5 lớp cực kỳ cẩn thận. Rất uy tín!",
+      "date": "2026-02-25",
+      "status": "visible",
+      "isToxic": false,
+      "flagReason": null
+    },
+    {
+      "id": "REV-302",
+      "productId": "PRD-103",
+      "productTitle": "Giày Nike Air Jordan 1 Retro High Chicago",
+      "sellerName": "Sneakers Hub Cheap",
+      "buyerName": "Nguyễn Văn Hùng",
+      "rating": 1,
+      "comment": "Hàng giả chất lượng tồi tệ, nồng mùi keo công nghiệp độc hại, đế giày bị méo mó. Đừng ai mua shop lừa đảo này!",
+      "date": "2026-03-01",
+      "status": "visible",
+      "isToxic": false,
+      "flagReason": null
+    },
+    {
+      "id": "REV-303",
+      "productId": "PRD-104",
+      "productTitle": "Máy ảnh Film Canon AE-1 kèm Lens 50mm f/1.8 FD",
+      "sellerName": "Tokyo Japan Authentic",
+      "buyerName": "Lê Thu Hà",
+      "rating": 5,
+      "comment": "Thân máy đẹp xuất sắc như mô tả, đo sáng chuẩn xác. Người bán hỗ trợ nhiệt tình qua hướng dẫn sử dụng.",
+      "date": "2026-03-02",
+      "status": "visible",
+      "isToxic": false,
+      "flagReason": null
+    },
+    {
+      "id": "REV-304",
+      "productId": "PRD-107",
+      "productTitle": "Sony PlayStation 5 Slim Edition 1TB SSD",
+      "sellerName": "TechGadget VN Store",
+      "buyerName": "Đỗ Quốc Bảo",
+      "rating": 1,
+      "comment": "*** lũ bán hàng rác rưởi lừa đảo sập tiệm đi *** (chứa từ ngữ xúc phạm đe dọa thô tục)",
+      "date": "2026-03-02",
+      "status": "hidden_toxic",
+      "isToxic": true,
+      "flagReason": "Vi phạm nguyên tắc cộng đồng: Chửi bới thô tục, xúc phạm người bán."
+    }
+  ],
+  "disputes": [
+    {
+      "id": "DSP-501",
+      "orderId": "EBAY-ORD-9023",
+      "buyerName": "Nguyễn Văn Hùng",
+      "buyerEmail": "hung.nv@gmail.com",
+      "sellerName": "Sneakers Hub Cheap",
+      "sellerEmail": "hoang.pm99@trashmail.com",
+      "amount": 108.00,
+      "reason": "Hàng giả mạo không đúng cam kết (Counterfeit Goods)",
+      "buyerClaim": "Người bán cam kết giày chính hãng nhưng nhận được hàng nhái rẻ tiền mùi keo nồng nặc, tem rách. Tôi yêu cầu hoàn trả 100% tiền.",
+      "sellerResponse": "Tôi đã ghi rõ trên tiêu đề giá 49$ thì không thể đòi hàng Auth. Khách đã xé mác nên không đồng ý hoàn tiền.",
+      "status": "Pending",
+      "createdAt": "2026-03-02",
+      "resolutionNotes": null,
+      "resolvedBy": null
+    },
+    {
+      "id": "DSP-502",
+      "orderId": "EBAY-ORD-9018",
+      "buyerName": "Lê Thu Hà",
+      "buyerEmail": "thuha.le@outlook.com",
+      "sellerName": "TechGadget VN Store",
+      "sellerEmail": "contact@techgadget.vn",
+      "amount": 35.00,
+      "reason": "Kiện hàng giao thiếu phụ kiện sạc",
+      "buyerClaim": "Mở hộp không có củ sạc nhanh 20W đi kèm theo gói combo đã đặt.",
+      "sellerResponse": "Chúng tôi đã kiểm tra kho và xác nhận nhân viên đóng gói sơ suất bỏ quên. Đồng ý gửi bổ sung hoặc hoàn tiền phần thiếu.",
+      "status": "Under Review",
+      "createdAt": "2026-02-26",
+      "resolutionNotes": "Admin đã yêu cầu người bán gửi mã vận đơn củ sạc bù trước ngày 05/03.",
+      "resolvedBy": "Admin Hỗ Trợ"
+    },
+    {
+      "id": "DSP-503",
+      "orderId": "EBAY-ORD-8990",
+      "buyerName": "Vũ Quang Khải",
+      "buyerEmail": "khai.vq@gmail.com",
+      "sellerName": "Tokyo Japan Authentic",
+      "sellerEmail": "long.tokyo@gmail.com",
+      "amount": 450.00,
+      "reason": "Bưu phẩm thất lạc trong quá trình vận chuyển quốc tế",
+      "buyerClaim": "Đã quá 30 ngày từ ngày dự kiến nhưng tracking vẫn kẹt ở hải quan sân bay.",
+      "sellerResponse": "Bên đơn vị vận chuyển DHL xác nhận kiện hàng bị giữ do kiểm tra đột xuất.",
+      "status": "Refunded to Buyer",
+      "createdAt": "2026-02-10",
+      "resolutionNotes": "Hệ thống bảo vệ người mua eBay Money Back Guarantee kích hoạt: Hoàn lại $450 cho người mua qua PayPal. Người bán sẽ được bên bảo hiểm vận chuyển đền bù.",
+      "resolvedBy": "Super Admin"
+    }
+  ],
+  "returnRequests": [
+    {
+      "id": "RET-701",
+      "orderId": "EBAY-ORD-9023",
+      "buyerName": "Nguyễn Văn Hùng",
+      "sellerName": "Sneakers Hub Cheap",
+      "itemTitle": "Giày Nike Air Jordan 1 Retro High Chicago",
+      "itemPrice": 98.00,
+      "reason": "Hàng lỗi / Hàng nhái không đúng mô tả",
+      "returnType": "Refund & Return",
+      "evidence": "Ảnh chụp đế giày bong tróc keo và logo nhái méo mó",
+      "status": "Pending",
+      "requestDate": "2026-03-02",
+      "adminNote": null
+    },
+    {
+      "id": "RET-702",
+      "orderId": "EBAY-ORD-9015",
+      "buyerName": "Phạm Hồng Phúc",
+      "sellerName": "LanStore Vintage & Collectibles",
+      "itemTitle": "Túi xách da thuộc thủ công phong cách Ý 1990s",
+      "itemPrice": 180.00,
+      "reason": "Kích thước thực tế nhỏ hơn kỳ vọng",
+      "returnType": "Exchange / Store Credit",
+      "evidence": "Ảnh so sánh kích thước túi với thông số mô tả",
+      "status": "Approved",
+      "requestDate": "2026-02-24",
+      "adminNote": "Đã duyệt cấp mã hoàn hàng hoàn tiền cho người mua sau khi gửi lại hàng."
+    },
+    {
+      "id": "RET-703",
+      "orderId": "EBAY-ORD-8942",
+      "buyerName": "Đỗ Quốc Bảo",
+      "sellerName": "TechGadget VN Store",
+      "itemTitle": "Bàn phím cơ không dây Gaming RGB",
+      "itemPrice": 120.00,
+      "reason": "Không thích màu sắc sau khi đã bóc dùng thử 2 tuần",
+      "returnType": "Full Refund",
+      "evidence": "Vỏ hộp đã bị rách góc",
+      "status": "Rejected",
+      "requestDate": "2026-02-15",
+      "adminNote": "Từ chối theo chính sách eBay: Đổi trả không áp dụng cho lý do chủ quan sau khi hàng đã sử dụng quá thời hạn quy định."
+    }
+  ],
+  "broadcasts": [
+    {
+      "id": "BC-101",
+      "title": "[CẢNH BÁO BẢO MẬT] Nâng cao cảnh giác thủ đoạn lừa đảo giao dịch ngoài sàn eBay",
+      "message": "Ban Quản Trị eBay Clone khuyến cáo tất cả Người Mua và Người Bán TUYỆT ĐỐI KHÔNG thực hiện thanh toán chuyển khoản trực tiếp bên ngoài hệ thống. Mọi giao dịch ngoài nền tảng sẽ mất quyền lợi bảo hiểm eBay Money Back Guarantee.",
+      "target": "Toàn bộ người dùng",
+      "type": "warning",
+      "sentAt": "2026-02-28 09:30:00",
+      "sentBy": "Super Admin",
+      "recipientCount": 1540
+    },
+    {
+      "id": "BC-102",
+      "title": "[THÔNG BÁO BẢO TRÌ] Nâng cấp hệ thống cổng thanh toán quốc tế định kỳ",
+      "message": "Hệ thống sẽ tiến hành bảo trì cổng thanh toán PayPal và thẻ tín dụng từ 02:00 đến 04:00 sáng Chủ Nhật ngày 15/03/2026. Các giao dịch trong thời gian này sẽ tạm hoãn xử lý.",
+      "target": "Chỉ Người bán (Sellers)",
+      "type": "maintenance",
+      "sentAt": "2026-03-01 14:15:00",
+      "sentBy": "Super Admin",
+      "recipientCount": 320
+    },
+    {
+      "id": "BC-103",
+      "title": "[QUY ĐỊNH MỚI] Xử phạt nghiêm các hành vi đăng bán hàng giả, hàng vi phạm bản quyền",
+      "message": "Kể từ tháng 03/2026, các tài khoản người bán bị phát hiện bán hàng nhái lần đầu sẽ bị tạm khóa 14 ngày, tái phạm lần 2 sẽ khóa vĩnh viễn và chuyển hồ sơ cơ quan chức năng.",
+      "target": "Chỉ Người bán (Sellers)",
+      "type": "policy",
+      "sentAt": "2026-03-02 10:00:00",
+      "sentBy": "Monitor Admin",
+      "recipientCount": 320
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "LOG-9001",
+      "timestamp": "2026-03-03 08:14:22",
+      "adminEmail": "admin@ebay-clone.internal",
+      "adminRole": "Super Admin",
+      "actionType": "ADMIN_LOGIN_2FA",
+      "targetId": "AUTH-SESSION-4481",
+      "details": "Đăng nhập thành công từ mạng nội bộ IP 192.168.1.45 với mã xác thực 2FA OTP.",
+      "ipAddress": "192.168.1.45 (Nội bộ)",
+      "encryptedHash": "enc_sha256_e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "LOG-9002",
+      "timestamp": "2026-03-03 08:30:11",
+      "adminEmail": "monitor@ebay-clone.internal",
+      "adminRole": "Monitor Admin",
+      "actionType": "PRODUCT_FLAGGED",
+      "targetId": "PRD-103",
+      "details": "Gắn cờ vi phạm và yêu cầu giải trình cho sản phẩm Nike Fake 1:1 từ seller Sneakers Hub Cheap.",
+      "ipAddress": "192.168.1.52 (Nội bộ)",
+      "encryptedHash": "enc_sha256_7a38b5f36e4f16a04e57e937d2e07172a392e62be556d10c2ef36195e69e469e"
+    },
+    {
+      "id": "LOG-9003",
+      "timestamp": "2026-03-03 09:12:45",
+      "adminEmail": "support@ebay-clone.internal",
+      "adminRole": "Support Admin",
+      "actionType": "DISPUTE_ARBITRATED",
+      "targetId": "DSP-503",
+      "details": "Phân xử khiếu nại thất lạc bưu phẩm: Chấp thuận hoàn trả 100% $450 tiền cho người mua.",
+      "ipAddress": "192.168.1.60 (Nội bộ)",
+      "encryptedHash": "enc_sha256_b10a8db164e0754105b7a99be72e3fe59fa50021f8b9f24d37723b10c2849735"
+    },
+    {
+      "id": "LOG-9004",
+      "timestamp": "2026-03-03 09:45:00",
+      "adminEmail": "admin@ebay-clone.internal",
+      "adminRole": "Super Admin",
+      "actionType": "USER_LOCKED",
+      "targetId": "USR-004",
+      "details": "Khóa tài khoản Người bán USR-004 do vi phạm bản quyền 3 lần liên tiếp.",
+      "ipAddress": "192.168.1.45 (Nội bộ)",
+      "encryptedHash": "enc_sha256_f24c6539c30e129aced71ecfbc2092ec4e12e4197a610b571996a471f4f37301"
+    }
+  ],
+  "adminProfiles": [
+    {
+      "id": "ADM-01",
+      "name": "Trần Quản Trị (Super Admin)",
+      "email": "admin@ebay-clone.internal",
+      "role": "Super Admin",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&h=100&fit=crop",
+      "permissions": [
+        "ALL"
+      ]
+    },
+    {
+      "id": "ADM-02",
+      "name": "Lê Hỗ Trợ (Support Admin)",
+      "email": "support@ebay-clone.internal",
+      "role": "Support Admin",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop",
+      "permissions": [
+        "ORDERS",
+        "DISPUTES",
+        "RETURNS",
+        "REVIEWS"
+      ]
+    },
+    {
+      "id": "ADM-03",
+      "name": "Hoàng Kiểm Duyệt (Monitor Admin)",
+      "email": "monitor@ebay-clone.internal",
+      "role": "Monitor Admin",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop",
+      "permissions": [
+        "PRODUCTS",
+        "REVIEWS",
+        "USER_LOCK"
+      ]
+    }
+  ],
+  "statistics": {
+    "daily": [
+      { "date": "24/02", "revenue": 3420, "orders": 18, "newUsers": 12 },
+      { "date": "25/02", "revenue": 4150, "orders": 24, "newUsers": 15 },
+      { "date": "26/02", "revenue": 2900, "orders": 14, "newUsers": 9 },
+      { "date": "27/02", "revenue": 5600, "orders": 31, "newUsers": 22 },
+      { "date": "28/02", "revenue": 6200, "orders": 35, "newUsers": 28 },
+      { "date": "01/03", "revenue": 7800, "orders": 42, "newUsers": 34 },
+      { "date": "02/03", "revenue": 8450, "orders": 48, "newUsers": 40 },
+      { "date": "03/03", "revenue": 9100, "orders": 52, "newUsers": 45 }
+    ],
+    "monthly": [
+      { "period": "Tháng 09/2025", "revenue": 48500, "orders": 410, "newUsers": 290 },
+      { "period": "Tháng 10/2025", "revenue": 56200, "orders": 495, "newUsers": 340 },
+      { "period": "Tháng 11/2025", "revenue": 78900, "orders": 680, "newUsers": 510 },
+      { "period": "Tháng 12/2025", "revenue": 94500, "orders": 820, "newUsers": 640 },
+      { "period": "Tháng 01/2026", "revenue": 68400, "orders": 590, "newUsers": 420 },
+      { "period": "Tháng 02/2026", "revenue": 85200, "orders": 740, "newUsers": 580 },
+      { "period": "Tháng 03/2026 (Dự phóng)", "revenue": 104000, "orders": 910, "newUsers": 720 }
+    ],
+    "quarterly": [
+      { "period": "Quý 2 / 2025", "revenue": 142000, "orders": 1250, "newUsers": 850 },
+      { "period": "Quý 3 / 2025", "revenue": 183600, "orders": 1580, "newUsers": 1140 },
+      { "period": "Quý 4 / 2025", "revenue": 251400, "orders": 2190, "newUsers": 1690 },
+      { "period": "Quý 1 / 2026 (Hiện tại)", "revenue": 257600, "orders": 2240, "newUsers": 1720 }
+    ],
+    "categoryBreakdown": [
+      { "name": "Điện thoại & Đồ công nghệ", "percent": 36, "sales": "$92,700" },
+      { "name": "Đồng hồ & Hàng sưu tầm cổ", "percent": 28, "sales": "$72,100" },
+      { "name": "Thời trang & Giày dép", "percent": 18, "sales": "$46,300" },
+      { "name": "Trò chơi & Gaming Consoles", "percent": 12, "sales": "$30,900" },
+      { "name": "Khác", "percent": 6, "sales": "$15,600" }
+    ]
+  }
+}
